@@ -143,7 +143,7 @@ struct RAK_DLL_EXPORT CloudQueryResult
 	void SerializeCloudQueryRows(bool writeToBitstream, uint32_t &numRows, BitStream *bitStream, CloudAllocator *allocator);
 };
 
-} // Namespace RakNet
+} // namespace RakNet
 
 #endif // __CLOUD_COMMON_H
 
